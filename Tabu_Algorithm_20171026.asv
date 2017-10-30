@@ -127,6 +127,6 @@ disp('Optimal Solution (i.e., job sequence)= ');
 fprintf('Optimal function (i.e., fitness) Value : %d\n',Tbest);
 % original code toc  % Read elapsed time from stopwatch
 % modify the running time presentation 
-fprintf('Running time:%.10f\n',toc);
+
 fprintf('Average (Weighted) Tardiness :%.2f\n',Tbest/Num_Jobs);
 fprintf('Number of tardy jobs : %d\n',num_tardy);
